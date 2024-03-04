@@ -62,9 +62,9 @@ export default function SideBarNav()
 
                             </li>
 
-                            <li   className="py-3 border-b-[1px] border-[#898b952e]">
+                            <li className="py-3 border-b-[1px] border-[#898b952e]">
                                 
-                                <Link href="/Agenda" className={btnLink}><HiCalendar className="mr-4 text-2xl "/> Agenda</Link>
+                                <Link href="/agenda" className={btnLink}><HiCalendar className="mr-4 text-2xl "/> Agenda</Link>
 
                             </li>
 
