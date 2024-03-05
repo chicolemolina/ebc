@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 {
   "name": "ebc",
   "version": "0.1.0",
@@ -26,32 +26,3 @@
     "tailwindcss": "^3.3.0"
   }
 }
-=======
-{
-  "name": "ebc",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "NODE_ENV=production node server.js",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "@types/styled-components": "^5.1.34",
-    "next": "14.1.0",
-    "next-pwa": "^5.6.0",
-    "react": "^18",
-    "react-dom": "^18",
-    "react-icons": "^5.0.1",
-    "react-spinners": "^0.13.8",
-    "styled-components": "^6.1.8",
-    "typescript": "^5.3.3"
-  },
-  "devDependencies": {
-    "autoprefixer": "^10.0.1",
-    "postcss": "^8",
-    "tailwindcss": "^3.3.0"
-  }
-}
->>>>>>> 121ff7ae7cff3aa94dbc988932bb29e7636e0b73
