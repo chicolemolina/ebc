@@ -29,10 +29,10 @@ const InstallPWA = () => {
     return null;
   }
   return (
-    <div className="bg-[#ffffff] fixex w-full p-10">
+    <div className="bg-[#ffffff] fixed w-full p-5">
 
     <button
-      className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
+      className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-small rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
       id="setup_button"
       aria-label="Install app"
       title="Install app"
