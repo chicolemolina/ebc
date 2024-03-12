@@ -25,9 +25,9 @@ export default function RootLayout({ children }) {
       <body>
         <Navbar />
         <SideBarNav />
-        {children}
         <Footer />
-        <ButtonPwa />
+         <ButtonPwa />
+        {children}
         </body>
     </html>
     

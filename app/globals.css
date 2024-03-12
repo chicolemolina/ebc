@@ -29,9 +29,3 @@ h1, h2{color: #002432 !important;}
     align-items: center;
     height: 100vh;
 }
-
-@media all and (display-mode: standalone) {
-    body {
-        background-color: yellow;
-    }
-}

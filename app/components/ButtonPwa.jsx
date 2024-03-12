@@ -29,17 +29,32 @@ const InstallPWA = () => {
     return null;
   }
   return (
-    <div className="bg-[#ffffff] fixed w-full p-5">
+    <div className="text-center md:text-left  bg-[#ffffff] shadow w-full p-2 fixed bottom-0 left-0">
 
-    <button
-      className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-small rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
-      id="setup_button"
-      aria-label="Install app"
-      title="Install app"
-      onClick={onClick}
-    >
-      INSTALAR APP
-    </button>
+      
+
+
+           <div>
+
+              <div className="text-black text-sm mb-0">Excellence Business Club</div>
+              <div className="italic text-xs">Noticias, eventos y toda la actualidad sobre EBC</div>
+
+
+            </div>
+       
+            <button
+            className="text-white bg-[#181c32] mt-1 py-1 px-3 rounded text-sm"
+            id="setup_button"
+            aria-label="Install app"
+            title="Install app"
+            onClick={onClick}
+          >
+            INSTALAR APP
+          </button>
+          
+      
+      
+
     </div>
   );
 };
