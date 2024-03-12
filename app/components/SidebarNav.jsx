@@ -1,14 +1,15 @@
 
 import Link from 'next/link';
-import { HiBell } from "react-icons/hi";
-import { HiCalendar } from "react-icons/hi";
-import { HiMiniUserGroup } from "react-icons/hi2";
-import { HiClipboardDocumentList } from "react-icons/hi2";
-import { HiDocumentText } from "react-icons/hi2";
-import { HiBriefcase } from "react-icons/hi";
-import { RiShieldUserLine } from "react-icons/ri";
-
-
+import { 
+        
+        HiMiniUserGroup, 
+        HiMiniDocumentText, 
+        HiMiniCalendarDays,
+        HiMiniClipboardDocumentList, 
+        HiMiniBell, 
+        HiMiniBriefcase, 
+        HiMiniCursorArrowRays
+    } from "react-icons/hi2";
 
 
 export default function SideBarNav() 
@@ -33,38 +34,38 @@ export default function SideBarNav()
 
                             <li   className="py-3 border-b-[1px] border-[#898b952e]">
                                 
-                                <Link href="/facturas" className={btnLink}><HiClipboardDocumentList className="mr-4 text-2xl "/> Facturas</Link>
+                                <Link href="/facturas" className={btnLink}><HiMiniClipboardDocumentList className="mr-4 text-2xl "/> Facturas</Link>
 
                             </li>
 
                             <li   className="py-3 border-b-[1px] border-[#898b952e]">
                                 
-                                <Link href="/documentacion" className={btnLink}><HiDocumentText className="mr-4 text-2xl "/> Documentación</Link>
+                                <Link href="/documentacion" className={btnLink}><HiMiniDocumentText className="mr-4 text-2xl "/> Documentación</Link>
 
                             </li>
 
                             <li   className="py-3 border-b-[1px] border-[#898b952e]">
                                 
-                                <Link href="/mis-ofertas" className={btnLink}><HiBriefcase className="mr-4 text-2xl "/> Empleo</Link>
+                                <Link href="/mis-ofertas" className={btnLink}><HiMiniBriefcase className="mr-4 text-2xl "/> Empleo</Link>
 
                             </li>
 
                             
                             <li   className="py-3 border-b-[1px] border-[#898b952e]">
                                 
-                                <Link href="/notificaciones" className={btnLink}><HiBell className="mr-4 text-2xl "/> Notificaciones</Link>
+                                <Link href="/notificaciones" className={btnLink}><HiMiniBell className="mr-4 text-2xl "/> Notificaciones</Link>
 
                             </li>
 
                             <li   className="py-3 border-b-[1px] border-[#898b952e]">
                                 
-                                <Link href="/promociones" className={btnLink}><RiShieldUserLine className="mr-4 text-2xl "/> Promociones</Link>
+                                <Link href="/promociones" className={btnLink}><HiMiniCursorArrowRays className="mr-4 text-2xl "/> Promociones</Link>
 
                             </li>
 
                             <li className="py-3 border-b-[1px] border-[#898b952e]">
                                 
-                                <Link href="/agenda" className={btnLink}><HiCalendar className="mr-4 text-2xl "/> Agenda</Link>
+                                <Link href="/agenda" className={btnLink}><HiMiniCalendarDays className="mr-4 text-2xl "/> Agenda</Link>
 
                             </li>
 

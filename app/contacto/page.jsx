@@ -4,7 +4,7 @@ export const metadata = {
   description: 'Esta es la página de Contacto',
 }
 
-export default function About() {
+export default function Contacto() {
   return (
     
     <div className="mt-[200px]">
