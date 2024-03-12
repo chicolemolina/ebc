@@ -1,8 +1,12 @@
 import "./globals.css";
 import Navbar from "./components/Navbar";
 import SideBarNav from "./components/SidebarNav";
+<<<<<<< HEAD
 import Footer from "./components/footer";
 
+=======
+import ButtonPwa from "./components/ButtonPwa";
+>>>>>>> 89c58de63b3c79364c5f04bd4b2231bd24c54a61
 
 
 export const metadata = {
@@ -26,7 +30,11 @@ export default function RootLayout({ children }) {
         <Navbar />
         <SideBarNav />
         {children}
+<<<<<<< HEAD
         <Footer />
+=======
+        <ButtonPwa />
+>>>>>>> 89c58de63b3c79364c5f04bd4b2231bd24c54a61
         </body>
     </html>
     
